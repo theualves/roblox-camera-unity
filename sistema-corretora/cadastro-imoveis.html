@@ -4,22 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro de Imóveis</title>
+
+    <style>
+      form{
+        display: block;
+        margin: 10px 25px;
+      }
+
+    </style>
   </head>
   <body>
-    <div>
-      <p>Matt Imóveis</p>
+
+    <header>
+    <div class="conteiner-logo">
+      <h1>Matt Imóveis</h1>
     </div>
 
-    <div>
+    <div class="menu">
       <a href="index.html">Página Inicial</a>
       <a href="list-imoveis.html">Lista de Imóveis</a>
       <a href="corretores.html">Lista de Corretores</a>
       <a href="cadastro-imoveis.html">Cadastro de Corretores</a>
     </div>
 
+    </header>
+
+    <main>
+
     <h2>Adicionar Imóvel</h2>
-    <form action="">
+    <form action="imoveis">
       <div>
         <label for="link-foto">Link para foto: </label>
         <input type="url" id="link-foto" name="link-foto" />
@@ -27,26 +42,39 @@
 
       <div>
         <label for="descricao">Descrição do Imóvel: </label>
-        <!-- Adicione o id apropriado para o input abaixo -->
-        <input type="text" id="" name="descrição" />
+        <input type="text" id="descricao" name="descrição" />
       </div>
 
       <div>
         <label for="preco">Preço (em R$): </label>
-        <!-- Adicione o id apropriado e o type para receber números abaixo -->
-        <input type="" id="" name="preço" />
+        <input type="text" id="" name="preço" />
       </div>
 
       <div>
-        <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-        <label>Contato do corretor: </label>
-        <input />
+        <label for="Contato"> Contato do corretor: </label>
+        <input type="tel" id="Contato" name="contato"/>
       </div>
 
       <div class="form-add">
         <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
         <button type="">Adicionar</button>
       </div>
+
     </form>
+    </main>
+
+    <footer>
+
+      <div>
+        <p>Siga-nos nas redes sociais!</p>
+  
+        <div>
+          <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+      </div>
+
+    </footer>
   </body>
 </html>

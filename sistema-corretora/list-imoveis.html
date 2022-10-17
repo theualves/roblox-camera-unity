@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
     <title>Lista de Imóveis</title>
+
+    <style>
+      .img{
+        height: 150px;
+        width: 250px;
+        margin-left: 20px;
+      }
+      .table{
+        background-color: aqua;
+      }
+
+    </style>
+
   </head>
   <body>
-    <div>
-      <p>Matt Imóveis</p>
-    </div>
+    <header>
+    <div class="conteiner-logo">
+      <h1>Matt Imóveis</h1>
+    </div> <!--conteiner-logo-->
 
-    <div>
+
+    <div class="menu">
       <a href="index.html">Página Inicial</a>
       <a href="list-imoveis.html">Lista de Imóveis</a>
       <a href="corretores.html">Lista de Corretores</a>
       <a href="cadastro-imoveis.html">Cadastro de Corretores</a>
-    </div>
+    </div> <!--menu-->
+    </header>
 
+    <main>
     <h2>Imóveis para alugar e comprar</h2>
 
-    <table>
+    <table class="table">
       <tr>
         <th>Foto</th>
         <th>Descrição</th>
@@ -29,39 +47,55 @@
       </tr>
 
       <tr>
-        <td><img src="img/apartamento1.jpg" alt="Apartamento" /></td>
+        <td><img src="img/apartamento1.jpg" class="img" alt="Apartamento" /></td>
         <td>Apartamento para alugar</td>
         <td>R$ 2,300/mês</td>
         <td>Renato; (81) 91234-5678</td>
       </tr>
 
       <tr>
-        <td><img src="img/casa1.jpg" alt="Casa á venda" /></td>
+        <td><img src="img/casa1.jpg" class="img" alt="Casa á venda" /></td>
         <td>Casa á venda</td>
         <td>R$ 350.000</td>
         <td>Augusto; (81) 92345-6789</td>
       </tr>
 
       <tr>
-        <td><img src="img/casa2.jpg" alt="Casa á venda" /></td>
+        <td><img src="img/casa2.jpg" class="img" alt="Casa á venda" /></td>
         <td>Casa á venda</td>
         <td>R$ 730.000</td>
         <td>Roger (81) 93456-7891</td>
       </tr>
 
       <tr>
-        <td><img src="img/casa3.jpg" alt="Casa para alugar" /></td>
+        <td><img src="img/casa3.jpg" class="img" alt="Casa para alugar" /></td>
         <td>Casa para alugar</td>
         <td>R$ 700,00/mês</td>
         <td>Yuri (81) 94567-8912</td>
       </tr>
 
       <tr>
-        <td><img src="img/apartamento2.jpg" alt="Apartamento á venda" /></td>
+        <td><img src="img/apartamento2.jpg" class="img" alt="Apartamento á venda" /></td>
         <td>Apartamento á venda</td>
         <td>R$ 1.300.000</td>
         <td>Fagner (81) 95678-9123</td>
       </tr>
     </table>
+
+    </main>
+
+    <footer>
+
+      <div>
+        <p>Siga-nos nas redes sociais!</p>
+  
+        <div>
+          <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+          <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+          <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+      </div>
+
+    </footer>
   </body>
 </html>
