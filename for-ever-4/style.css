@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: auto;
+    height: 30px;
+    background-color: #EF8433;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.one{
+    width: auto;
+    height: 50vh;
+    background-color: #3974A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    color: white;
+    margin: 100px;
+}
+
+.menu p{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+.lista{
+    text-align: center;
+    margin: 15px;
+
+}
+
+.menu h3{
+    text-align: center;
+    margin: 15px;
+
+}
+
+.two{
+    width: auto;
+    background-color: #E9EA9B;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two h1{
+    margin: 60px 0;
+    color: #B75621;
+    display: flex;
+    font-size: 40px;
+}
+
+.two button{
+    position: absolute;
+    border: 0;
+    background-color: #F4B259;
+    color: white;
+    width: 170px;
+    height: 30px;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.two button a{
+    text-decoration: none;
+    color: white;
+}
+
+.two button:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+
+#divBusca{
+margin: 15px auto;
+border: none;
+height: 16px;
+width: 600px;
+display: flex;
+justify-content: center;
+}
+
+#btnBusca{
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+#btnBusca:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela td{
+    padding: 0 60px;
+}
+
+.tabela button{
+    border: 0;
+    background-color: #F7DF77;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.tabela button:hover{
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+#img{
+    height: 30px;
+}
+
+#botaoVoltar{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 70px;
+height: 20px;
+}
+
+.footer-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 90px;
+}
+
+.footer-content h3{
+    padding: 0 60px;
+}
