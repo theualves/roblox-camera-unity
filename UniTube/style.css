@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* CSS FLEXBOX */
+
+.flex{
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.flex img{
+    max-width: 100%;
+    display: block;
+}
+
+.flex div{
+    margin: 15px;
+}
+
+/* Footer */
+
+.content-footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    display: flex;
+    background: black;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Páginas dos conteudo 1 e 2 */
+
+#title{
+    margin: 30px;
+}
+
+.corpo-video video{
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+.detalhes-video{
+    margin: 60px;
+}
+
+
+.detalhes-video p{
+    margin: 10px 15px;
+}
+
+.autorData{
+    display: inline-block;
+    align-items: center;
+    margin: 0 15px;
+}
